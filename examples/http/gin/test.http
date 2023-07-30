@@ -1,0 +1,12 @@
+# curl -v -X POST \
+#   http://localhost:8080/v1/login\
+#   -H 'content-type: application/json' \
+#   -d '{ "name":"sakura" }'
+
+# POST http://localhost:9090/hello
+# 'content-type: application/json'
+# '{ "name":"sakura" }'
+GET POST http://localhost:9090/hello
+
+
+

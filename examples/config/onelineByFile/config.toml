@@ -1,0 +1,7 @@
+[people]
+    name = "miopeople"
+[mio.logger.default]
+    debug = true
+    enableConsole = true
+
+

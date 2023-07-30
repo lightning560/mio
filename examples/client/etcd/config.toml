@@ -1,0 +1,7 @@
+[mio.etcdv3.myetcd]
+    endpoints = ["localhost:2379"]
+    connectTimeout = "10s"
+[mio.registry.test]
+    configKey="mio.etcdv3.myetcd"
+    timeout = "5s"
+    service_ttl = "5s"
